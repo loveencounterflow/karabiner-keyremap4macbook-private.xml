@@ -64,8 +64,8 @@
 It's a known problem with this method that sometimes Asian input methods do get 'selected' but not
 'activated'. Reasearching into this.[1] [2]
 
-[1](https://github.com/tekezo/Karabiner/issues/279)
-[2](https://github.com/tekezo/Karabiner/blob/version_10.2.0/src/core/server/Resources/vkchangeinputsourcedef.xml#L231-L256)
+- [1](https://github.com/tekezo/Karabiner/issues/279)
+- [2](https://github.com/tekezo/Karabiner/blob/version_10.2.0/src/core/server/Resources/vkchangeinputsourcedef.xml#L231-L256)
 
 ### リンク集
 
