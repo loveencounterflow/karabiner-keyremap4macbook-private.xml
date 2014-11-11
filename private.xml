@@ -37,6 +37,11 @@
     <inputmodeid_prefix>com.apple.inputmethod.Korean</inputmodeid_prefix>
     </vkchangeinputsourcedef>
   <!-- ................................................................................................. -->
+  <vkchangeinputsourcedef>
+    <name>KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT</name>
+    <inputsourceid_prefix>com.apple.keylayout.UnicodeHexInput</inputsourceid_prefix>
+    </vkchangeinputsourcedef>
+  <!-- ................................................................................................. -->
   <item>
     <name>change_inputsources</name>
     <identifier>change_inputsources</identifier>
@@ -50,5 +55,6 @@
     <autogen>__KeyToKey__ KeyCode::KEYPAD_3, VK_CONTROL | VK_COMMAND | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_MAC_CHINESE_TRADITIONAL</autogen>
     <autogen>__KeyToKey__ KeyCode::KEYPAD_9, VK_CONTROL | VK_COMMAND | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_MAC_CHINESE_SIMPLIFIED</autogen>
     <autogen>__KeyToKey__ KeyCode::KEYPAD_5, VK_CONTROL | VK_COMMAND | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_KOREAN</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEYPAD_6, VK_CONTROL | VK_COMMAND | ModifierFlag::NONE, KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT</autogen>
   </item>
 </root>
